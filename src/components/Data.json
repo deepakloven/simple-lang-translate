@@ -1,0 +1,19 @@
+[
+  {
+    "en": {
+      "greeting": "Hello!",
+      "name": "I'm Deepak Tamang",
+      "profession": "Web Developer"
+    },
+    "np": {
+      "greeting": "नमस्ते!",
+      "name": "म दीपक तामाङ हूँ।",
+      "profession": "वेब डेभलपर"
+    },
+    "ch": {
+      "greeting": "你好!",
+      "name": "我是Deepak Tamang",
+      "profession": "网络开发人员"
+    }
+  }
+]

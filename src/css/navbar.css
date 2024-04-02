@@ -1,0 +1,104 @@
+/* Navbar.css */
+.navbar {
+  background-color: #5a98;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+}
+
+.navbar-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-item {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #c96262;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  z-index: 99;
+  display: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* .dropdown-item:hover {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  padding: 10px 0;
+  margin: 0;
+  display: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+} */
+.dropdown-item{
+  color: white;
+}
+.first-container{
+  width: 70%;
+  height: 40%;
+  border: 1px solid rgb(219, 59, 59);
+  
+}
+.left-container{
+  position: absolute;
+  left: 0%;
+  width: 50%;
+  height:45%;
+  background: #008000;
+  color: white;
+  font-family: Baloo Da;
+  font-size: 2vw;
+  font-weight: bold;
+}
+.right-container{
+  position: absolute;
+  background-image: url('../images/smile.jpg');
+    width: 50%;
+    height: 45%;
+    left: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media screen and(max-width :1366px){
+  .left-container{
+    font-size: 7vw;
+  }
+}

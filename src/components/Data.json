@@ -3,17 +3,23 @@
     "en": {
       "greeting": "Hello!",
       "name": "I'm Deepak Tamang",
-      "profession": "Web Developer"
+      "profession": "Web Developer",
+      "ab":"About Me",
+      "des":"In the tranquil valleys of Rasuwa district, Nepal, amidst the whispering pines and the resounding hymns of nature, a soul was born. That soul, baptized in the purity of the Himalayas, bears the name Deepak Tamang. From the rustic embrace of his village, where every sunrise paints a new narrative on the canvas of the sky, Deepak embarked on his journey through educationGuided by the wisdom of his elders and the boundless curiosity within, Deepak traversed the corridors of knowledge at his village school. With each lesson learned, he found himself drawn to the symphony of logic and creativity that defines the realm of technology. It was here, amidst the humble walls of his childhood education, that the seeds of his ambition took root."
     },
     "np": {
-      "greeting": "नमस्ते!",
+      "greeting": "नमस्ते!", 
       "name": "म दीपक तामाङ हूँ।",
-      "profession": "वेब डेभलपर"
+      "profession": "वेब डेभलपर",
+      "ab":"मेरो बारेमा",
+      "des": " सबै उपदेशका बुद्धिमानी र सीमाहीनताका संग, दीपकले आफ्नो गाउँको शिक्षा विद्यालयमा ज्ञानको गलियोंमा चढ्दा गए। हरेक सिकाइको साथ, उनीले आफूलाई तकनीकको विश्वको तालमेल र रचनात्मकताको सिम्फोनीमा आकर्षित पाइन्। यहाँ, उसको बचपनको शिक्षा को अविलम्ब बगालमा, उसको अभिलाषाहरूका बीज फलिए।"
     },
     "ch": {
       "greeting": "你好!",
       "name": "我是Deepak Tamang",
-      "profession": "网络开发人员"
+      "profession": "网络开发人员",
+      "ab":"关于我",
+      "des": "我的名字叫德帕克·塔曼。我出生在尼泊尔的拉苏瓦区。我在自己村子的学校完成了高中。"
     }
   }
 ]

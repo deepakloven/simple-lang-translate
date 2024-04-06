@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import languageData from '../components/Data.json'; 
 import '../css/navbar.css';
+// import '../components/data.xml'
 
 function Navbar() {
   const [selectedLanguage, setSelectedLanguage] = useState('en');
@@ -37,6 +38,12 @@ function Navbar() {
             <p>{languageData[0][selectedLanguage].profession}</p>
             </div>
             <div className='right-container'>
+            </div>
+
+            <div className='mid-container'>
+              <h2>{languageData[0][selectedLanguage].ab}</h2>
+              <p>  {languageData[0][selectedLanguage].des}</p>
+              {/* <h3>{languageData[0][selectedLanguage].dd}</h3> */}
             </div>
 
 

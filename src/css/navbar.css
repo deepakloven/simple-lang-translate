@@ -1,6 +1,6 @@
 /* Navbar.css */
 .navbar {
-  background-color: #5a98;
+  background-color: #26c5a5;
   color: white;
   padding: 10px 20px;
   display: flex;
@@ -18,7 +18,6 @@
   padding: 0;
   display: flex;
 }
-
 .navbar-item {
   margin-right: 20px;
   cursor: pointer;
@@ -89,13 +88,26 @@
 }
 .right-container{
   position: absolute;
-  background-image: url('../images/smile.jpg');
+  background-image: url('../images/normal.jpg');
     width: 50%;
     height: 45%;
     left: 50%;
+    border-radius: 50%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+.right-container>img{
+  border-radius: 50%;
+}
+.mid-container{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 52%;
+  color: white;
+  background: black;
+  border: -11px solid 
 }
 @media screen and(max-width :1366px){
   .left-container{
